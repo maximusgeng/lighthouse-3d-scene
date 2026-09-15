@@ -1,19 +1,22 @@
-# Lighthouse — Interactive 3D Scene (Unity 6 / URP)
+# Lighthouse — интерактивная 3D-сцена (Unity 6 / URP)
 
-A small atmospheric first-person scene: a lighthouse on rocky terrain among stone pillars, with animated fog and interactive light sources.
+Атмосферная сцена от первого лица: маяк на скалистой местности среди каменных колонн, анимированный туман и интерактивные источники света.
 
-## What's inside
+## Что внутри
 
-- Environment models (lighthouse, rocks, pillars) modeled in **Blender** — sources in [`source-models/`](source-models/)
-- **URP** rendering: custom materials, textures, skybox
-- Dynamic fog — a Particle System with sinusoidal animation of particle lifetime
-- Interactive light — walk up to a lamp and press **E** to boost its intensity (smooth fade back after a while)
-- First-person controls
+- Модели окружения (маяк, скалы, колонны) — **Blender**, исходники в [`source-models/`](source-models/)
+- Рендер на **URP**: материалы, текстуры, скайбокс
+- Динамический туман — Particle System с синусоидальной анимацией времени жизни частиц
+- Интерактивный свет — подойти к фонарю и нажать **E**: интенсивность плавно поднимается и так же плавно возвращается
+- Управление от первого лица
 
-## Tech
+## Технологии
 
 Unity 6000.3.10f1 · URP 17 · Blender · Particle System · Input System
 
-## How to run
+## Запуск
 
-Open the project in Unity 6, open the main scene, press **Play**.
+Открыть проект в Unity 6, открыть сцену, нажать **Play**.
+
+---
+Автор: Максим Семёнов
